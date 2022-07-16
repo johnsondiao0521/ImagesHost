@@ -1,1 +1,43 @@
-<mxfile host="app.diagrams.net" modified="2022-07-16T03:41:46.553Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" version="20.0.4" etag="AlNELaILO7EGzsAnBSWA" type="github"><diagram id="3UsDiJFZPkJbw98eGKN_">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-07-16T04:07:42.039Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="3J1A_4f3Cstpm_SDlbZj" version="20.0.4" type="github">
+  <diagram id="3UsDiJFZPkJbw98eGKN_" name="第 1 页">
+    <mxGraphModel dx="1662" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="mo1GEhNNsRcgXY57owD3-10" value="刷题平台" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="270" y="240" width="120" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="mo1GEhNNsRcgXY57owD3-26" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="mo1GEhNNsRcgXY57owD3-10">
+          <mxGeometry x="50" y="80" width="20" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="mo1GEhNNsRcgXY57owD3-17" value="推荐系统" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="520" y="240" width="120" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="mo1GEhNNsRcgXY57owD3-31" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="mo1GEhNNsRcgXY57owD3-17">
+          <mxGeometry x="50" y="80" width="20" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="mo1GEhNNsRcgXY57owD3-36" value="用户" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+          <mxGeometry x="95" y="160" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mo1GEhNNsRcgXY57owD3-39" value="刷题平台" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="60" y="240" width="120" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="mo1GEhNNsRcgXY57owD3-40" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="mo1GEhNNsRcgXY57owD3-39">
+          <mxGeometry x="50" y="80" width="20" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="mo1GEhNNsRcgXY57owD3-42" value="callback" style="html=1;verticalAlign=bottom;endArrow=block;entryX=1.05;entryY=0.089;rounded=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" target="mo1GEhNNsRcgXY57owD3-40" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="320" y="328" as="sourcePoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mo1GEhNNsRcgXY57owD3-43" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;" edge="1" source="mo1GEhNNsRcgXY57owD3-39" parent="1" target="mo1GEhNNsRcgXY57owD3-26">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="365" y="642" as="targetPoint" />
+            <mxPoint x="190" y="380" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
